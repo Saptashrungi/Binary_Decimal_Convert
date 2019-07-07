@@ -11,5 +11,5 @@ do
     num=num/2;
 }while(num!=0);
 
-
+return 0;
 }

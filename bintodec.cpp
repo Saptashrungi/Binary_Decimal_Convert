@@ -5,8 +5,7 @@ int main()
 {
     int decnum;
     cin>>decnum;
-    int power=0;
-    int sum=0;
+    int power=0,sum=0;
     while(decnum)
     {
       sum+=(decnum%10)*pow(2,power);
